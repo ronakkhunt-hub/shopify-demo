@@ -1,0 +1,85 @@
+.textField {
+  text-align: center;
+}
+
+.login_user {
+  margin: 200px auto;
+}
+
+.emailField {
+  margin: 10px auto;
+}
+
+.passwordField {
+  margin: 10px auto;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginPage {
+  width: 30%;
+  margin: 50px 0;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.form {
+  width: 80%;
+  margin: 50px auto;
+}
+
+.form h3 {
+  text-align: center;
+}
+
+.loginButton button {
+  width: 100%;
+}
+
+.alreadyRegister {
+  text-align: center;
+  margin: 20px;
+}
+
+@media screen and (max-width: 575px) {
+  .loginPage {
+    width: 80%;
+  }
+
+  .alreadyRegister {
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .loginPage {
+    width: 60%;
+  }
+  .alreadyRegister {
+    text-align: center;
+    margin: 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .loginPage {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .loginPage {
+    width: 50%;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+  .loginPage {
+    width: 40%;
+  }
+}
